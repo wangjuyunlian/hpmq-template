@@ -1,0 +1,8 @@
+[build]
+target = "wasm32-wasi"
+
+[profile.release]
+lto = true
+opt-level = 's'
+debug = false
+strip = true

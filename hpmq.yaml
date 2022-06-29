@@ -1,0 +1,4 @@
+FROM scratch
+KIND wasi
+COPY target/wasm32-wasi/debug/{{crate_name}}.wasm /
+CMD /{{crate_name}}.wasm

@@ -1,0 +1,10 @@
+#[placeholders.image-project]
+#type = "string"
+#prompt = "What image's project to use?"
+
+[template]
+ignore = [
+    "Cargo.lock",
+    ".idea",
+    "target"
+]
